@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/*sellector universal*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family:  'poppins';
+}
+/*selector de etiqueta*/
+h1{
+    font-family:  'poppins';
+    font-weight: 900;
+    color:aquamarine 
+}
+ /*selector de etiqueta*/
+h2{
+    color:#0000ff;
+}
+/*selector de etiqueta*/
+ #site_text{
+    background-color: bisque;
+ }
+ /*selector de clase*/
+ .subtitles{
+    font-family:'poppins' ;
+  }
+  imput[disabled]{
+    background-color: blueviolet;
+
+  }
+  #btn_send{
+            margin: 50px;
+            padding:50px;
+  }
+  #btn_send:hover{
+    background-color: chocolate;
+    color: brown;
+    font-size: 20px;
+  }
+  #papa{
+    margin-left: 50px;
+    border:2px double cornflowerblue
+    border-radius: 10px;
+  }
+  .hermanos{
+    border-color: darkmagenta;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  #nh_uno{
+    color: crimson;
+  }
+  #papa>.hermanos>#nh_uno{
+    color: burlywood;
+  }
+  #papa>.nieto{
+    color: chartreuse;
+  }
+ #title_box{ 
+ color: chartreuse;
+ font-family: 'poppins', sans-serif;
+ background-color: aquamarine;
+ text-align: center;
+ padding-left: 20px;
+ margin: 50px;
+ border: 1px dotted 
+  #0000ff ;
+  border-radius: 10px;
+ box-shadow: 0px 0px 10px 1px  #0000ff;
+ box-shadow: 45px 53px 63px 89px rgba(0,0,0,0.1);
+ word-spacing: 15px;
+letter-spacing: 5px;
+font-size: 20px;
+
+ }
+ #box_father{
+  border: 1px solid  #0000ff;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  margin-left: 20px;
+  background-image: url(https://images2.alphacoders.com/649/649995.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+
+ }
+ @media (min-width: 800px) and (max-width: 1280px){
+  body{
+    background-color: burlywood;
+  }
+ }
+ @media (min-width: 800px) and (max-width: 1280px){
+    max-width: 799;{
+      body{
+        background-image: url(https://images2.alphacoders.com/649/649995.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        
+      }
+    }
+ }
+
+  
