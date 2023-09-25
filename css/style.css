@@ -36,11 +36,11 @@ h2{
     color: brown;
     font-size: 20px;
   }
-  #papa{
+  .PAPA{
     margin-left: 50px;
-    border:2px double cornflowerblue
-    border-radius: 10px;
-  }
+    border:2px double cornflowerblue;
+    border-radius: 10px;}
+  
   .hermanos{
     border-color: darkmagenta;
     margin: 10px;
@@ -92,15 +92,15 @@ font-size: 20px;
   }
  }
  @media (min-width: 800px) and (max-width: 1280px){
-    max-width: 799;{
+    
       body{
         background-image: url(https://images2.alphacoders.com/649/649995.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
-        
+        max-width: 799;
       }
     }
- }
+ 
 
   
